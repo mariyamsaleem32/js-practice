@@ -74,6 +74,7 @@
 
 
 // Q2. find the average marks of entire class.
+
 // let marks = [49,66,90,77,53,72];
 
 // let sum = 0;
@@ -262,6 +263,7 @@
 // console.log(answer);
 
 // filter out the marks of student that scored 90
+
 // let marks = [87,93,99,63,35];
 
 // let toppers = marks.filter((val) => {
@@ -271,24 +273,27 @@
 
 
 // gerate a prompt for arry if user enter 5 start arry from 1 to 5;
-// let userInput = +prompt("Enter a number :");
-// let arr = [];
-// for (let i = 1; i <= userInput; i++) {
-//     arr[i - 1] = i;
-// }
-// console.log(arr);
 
-// // get the sum of arr
-// let sum = arr.reduce((pre, curr) => {
-//     return pre + curr ;
-//     });
-//     console.log(sum);
+let userInput = +prompt("Enter a number :");
+let arr = [];
+for (let i = 1; i <= userInput; i++) {
+    arr[i - 1] = i;
+}
+console.log(arr);
 
-//     // get the fectorial of arr
-// let fectorial = arr.reduce((pre, curr) => {
-//     return pre * curr ;
-//     });
-//     console.log(fectorial);
+// get the sum of arr
+
+let sum = arr.reduce((pre, curr) => {
+    return pre + curr ;
+    });
+    console.log(sum);
+
+    // get the fectorial of arr
+
+let fectorial = arr.reduce((pre, curr) => {
+    return pre * curr ;
+    });
+    console.log(fectorial);
 
 
 
